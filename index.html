@@ -24,8 +24,8 @@
     <nav class="navbar navbar-expand-md bg-light shadow-lg fixed-top nabar-light">
     <div class="container-fluid">
         <img src="img/logo.png"class="rounded-circle" width="100" height="60" >
-        <a href="#" class="mx-4 text-white navbar-brand heading">
-         !! Welocome To Pathikashram Hotel !!
+        <a href="#" class="mx-4 text-white navbar-brand heading`">
+            <span class="developer"></span>
         </a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
             <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><i class="fa-solid fa-bars"></i></span>
@@ -46,6 +46,18 @@
         </div>
     </nav>
     <!--Star js link-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typeData = new Typed(".developer", {
+        strings: [
+        "!! Welocome To Pathikashram Hotel !!",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
     <script src="js/index.js"></script>
     <!--end js link-->
 </body>
