@@ -12,7 +12,13 @@
 .navbar-brand{
     font-size: 1.5rem !important;
     font-weight: bold;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .nav-item{
     font-size: 1.5rem !important;
+}
+
+.navbar-toggler span i{
+    color: white;
 }

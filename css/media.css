@@ -13,7 +13,14 @@
         display: none;
     } */
     .navbar-brand{
-        font-size: 0.8rem !important;
+        font-size: 0.6rem !important;
         font-weight: bold;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container-fluid img{
+        width: 70px;
+        height: 40px;
     }
 }
